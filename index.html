@@ -42,7 +42,7 @@
         <section class="hero hero__overlay">
             <div class="container">
                 <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="btn hero__btn primary pointer" data-modal-open>Заказать услугу</button>
+                <button type="button" class="hero__btn pointer" data-modal-open>Заказать услугу</button>
 
                 <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
@@ -90,7 +90,7 @@
                                     aria-label="conditions of the contract">Условия договора
                                 </a>
                             </label>
-                            <button type="submit" class="btn pointer">
+                            <button type="submit" class="modal-form__btn pointer">
                                 Отправить
                             </button>
                         </form>
@@ -394,8 +394,12 @@
                         <li class="footer-adress__item">
                             <p class="footer-adress__text">г. Киев, пр-т Леси Украинки, 26</p>
                         </li>
-                        <li class="footer-adress__item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                        <li class="footer-adress__item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                        <li class="footer-adress__item">
+                            <a href="mailto:info@devstudio.com" class="footer-adress__link">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-adress__item">
+                            <a href="tel:+380961111111" class="footer-adress__link">+38 096 111 11 11</a>
+                        </li>
                     </ul>
                 </address>
             </div>
@@ -403,29 +407,33 @@
                 <p class="page-footer__text">присоединяйтесь</p>
                 <ul class="footer-social list">
                     <li class="footer-social__item">
-                        <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow" aria-label="instagram">
-                            <svg class="workers-social__icon" width="20" height="20">
+                        <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow"
+                            aria-label="instagram">
+                            <svg class="footer-social__icon" width="20" height="20">
                                 <use href="./images/symbol-defs.svg#instagram-2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social__item">
-                        <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow" aria-label="twitter">
-                            <svg class="workers-social__icon" width="20" height="16.25">
+                        <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow"
+                            aria-label="twitter">
+                            <svg class="footer-social__icon" width="20" height="16.25">
                                 <use href="./images/symbol-defs.svg#twitter-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social__item">
-                        <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow" aria-label="facebook">
-                            <svg class="workers-social__icon" width="10" height="20">
+                        <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow"
+                            aria-label="facebook">
+                            <svg class="footer-social__icon" width="10" height="20">
                                 <use href="./images/symbol-defs.svg#facebook-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social__item">
-                        <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow" aria-label="linkedin">
-                            <svg class="workers-social__icon" width="20" height="20">
+                        <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow"
+                            aria-label="linkedin">
+                            <svg class="footer-social__icon" width="20" height="20">
                                 <use href="./images/symbol-defs.svg#linkedin-1"></use>
                             </svg>
                         </a>
@@ -438,7 +446,7 @@
                     <label class="footer-form__field">
                         <input type="email" name="mail" id="mail" placeholder="E-mail" class="footer-form__input pointer" />
                     </label>
-                    <button type="submit" class="btn pointer">Подписаться
+                    <button type="submit" class="footer-form__btn pointer">Подписаться
                         <svg class="footer-form__icon" width="24" height="24">
                             <use href="./images/symbol-defs.svg#icon-send"></use>
                         </svg>

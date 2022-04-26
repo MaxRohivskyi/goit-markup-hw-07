@@ -78,4 +78,8 @@
     transition: outline $time-animation $timing-function;
     resize: none;
   }
+
+  &__btn {
+    @extend %btn;
+  }
 }

@@ -6,12 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
 </head>
 
 <body>
@@ -19,7 +14,7 @@
     <header class="page-header">
         <div class="page-header__nav container">
             <nav class="page-header__nav">
-                <a href="./index.html" class="logo">Web<span class="page-header__logo">Studio</span></a>
+                <a href="./index.html" class="logo">Web<span class="logo--page-header">Studio</span></a>
                 <ul class="site-nav list">
                     <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
                     <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link current">Портфолио</a></li>
@@ -52,18 +47,18 @@
                 
                 <nav>
                     <ul class="filter-nav list">
-                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn primary pointer">Все</button></li>
-                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn primary pointer">Веб-сайты</button></li>
-                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn primary pointer">Приложения</button></li>
-                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn primary pointer">Дизайн</button></li>
-                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn primary pointer">Маркетинг</button></li>
+                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn pointer">Все</button></li>
+                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn pointer">Веб-сайты</button></li>
+                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn pointer">Приложения</button></li>
+                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn pointer">Дизайн</button></li>
+                        <li class="filter-nav__item"><button type="button" class="filter-nav__btn pointer">Маркетинг</button></li>
                     </ul>
                 </nav>
                 
                 <ul class="examples list">
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio1.jpg" alt="Технокряк" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -73,14 +68,14 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Технокряк</h2>
-                                <p class="examples-card__text">Веб-сайт</p>
+                                <h2 class="examples-card__wrapper-title">Технокряк</h2>
+                                <p class="examples-card__wrapper-text">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -90,14 +85,14 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Постер New Orlean vs Golden Star</h2>
-                                <p class="examples-card__text">Дизайн</p>
+                                <h2 class="examples-card__wrapper-title">Постер New Orlean vs Golden Star</h2>
+                                <p class="examples-card__wrapper-text">Дизайн</p>
                             </div>
                         </a>
                     </li>
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio3.jpg" alt="Ресторан Seafood" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -107,14 +102,14 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Ресторан Seafood</h2>
-                                <p class="examples-card__text">Приложение</p>
+                                <h2 class="examples-card__wrapper-title">Ресторан Seafood</h2>
+                                <p class="examples-card__wrapper-text">Приложение</p>
                             </div>
                         </a>
                     </li>
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio4.jpg" alt="Проект Prime" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -124,14 +119,14 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Проект Prime</h2>
-                                <p class="examples-card__text">Маркетинг</p>
+                                <h2 class="examples-card__wrapper-title">Проект Prime</h2>
+                                <p class="examples-card__wrapper-text">Маркетинг</p>
                             </div>
                         </a>
                     </li>
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio5.jpg" alt="Проект Boxes" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -141,14 +136,14 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Проект Boxes</h2>
-                                <p class="examples-card__text">Приложение</p>
+                                <h2 class="examples-card__wrapper-title">Проект Boxes</h2>
+                                <p class="examples-card__wrapper-text">Приложение</p>
                             </div>
                         </a>
                     </li>
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio6.jpg" alt="Inspiration has no Borders" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -158,14 +153,14 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Inspiration has no Borders</h2>
-                                <p class="examples-card__text">Веб-сайт</p>
+                                <h2 class="examples-card__wrapper-title">Inspiration has no Borders</h2>
+                                <p class="examples-card__wrapper-text">Веб-сайт</p>
                             </div>
                         </a>
                     </li>
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio7.jpg" alt="Издание Limited Edition" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -175,14 +170,14 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Издание Limited Edition</h2>
-                                <p class="examples-card__text">Дизайн</p>
+                                <h2 class="examples-card__wrapper-title">Издание Limited Edition</h2>
+                                <p class="examples-card__wrapper-text">Дизайн</p>
                             </div>
                         </a>
                     </li>
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio8.jpg" alt="Проект LAB" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -192,14 +187,14 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Проект LAB</h2>
-                                <p class="examples-card__text">Маркетинг</p>
+                                <h2 class="examples-card__wrapper-title">Проект LAB</h2>
+                                <p class="examples-card__wrapper-text">Маркетинг</p>
                             </div>
                         </a>
                     </li>
                     <li class="examples__item">
-                        <a href="" class="examples-card__link primary">
-                            <div class="examples-card__thumb">
+                        <a href="" class="examples-card__link">
+                            <div class="examples-card">
                                 <img src="./images/img-portfolio9.jpg" alt="Growing Business" width="370">
                                 <div class="examples-card__overlay">
                                     <p class="examples-card__description">
@@ -209,8 +204,8 @@
                                 </div>
                             </div>
                             <div class="examples-card__wrapper">
-                                <h2 class="examples-card__title">Growing Business</h2>
-                            <p class="examples-card__text">Приложение</p>
+                                <h2 class="examples-card__wrapper-title">Growing Business</h2>
+                            <p class="examples-card__wrapper-text">Приложение</p>
                             </div>
                         </a>
                     </li>
@@ -224,15 +219,18 @@
     <footer class="page-footer">
         <div class="page-footer__wrapper container">
             <div class="page-footer__adress">
-                <a href="./index.html" class="logo">Web<span class="page-footer__logo">Studio</span></a>
+                <a href="./index.html" class="logo">Web<span class="logo--page-footer">Studio</span></a>
                 <address>
                     <ul class="footer-adress list">
                         <li class="footer-adress__item">
                             <p class="footer-adress__text">г. Киев, пр-т Леси Украинки, 26</p>
                         </li>
-                        <li class="footer-adress__item"><a href="mailto:info@devstudio.com"
-                                class="link">info@devstudio.com</a></li>
-                        <li class="footer-adress__item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                        <li class="footer-adress__item">
+                           <a href="mailto:info@devstudio.com" class="footer-adress__link">info@devstudio.com</a>
+                        </li>
+                        <li class="footer-adress__item">
+                            <a href="tel:+380961111111" class="footer-adress__link">+38 096 111 11 11</a>
+                        </li>
                     </ul>
                 </address>
             </div>
@@ -242,7 +240,7 @@
                     <li class="footer-social__item">
                         <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow"
                             aria-label="instagram">
-                            <svg class="workers-social__icon" width="20" height="20">
+                            <svg class="footer-social__icon" width="20" height="20">
                                 <use href="./images/symbol-defs.svg#instagram-2"></use>
                             </svg>
                         </a>
@@ -250,7 +248,7 @@
                     <li class="footer-social__item">
                         <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow"
                             aria-label="twitter">
-                            <svg class="workers-social__icon" width="20" height="16.25">
+                            <svg class="footer-social__icon" width="20" height="16.25">
                                 <use href="./images/symbol-defs.svg#twitter-1"></use>
                             </svg>
                         </a>
@@ -258,7 +256,7 @@
                     <li class="footer-social__item">
                         <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow"
                             aria-label="facebook">
-                            <svg class="workers-social__icon" width="10" height="20">
+                            <svg class="footer-social__icon" width="10" height="20">
                                 <use href="./images/symbol-defs.svg#facebook-1"></use>
                             </svg>
                         </a>
@@ -266,7 +264,7 @@
                     <li class="footer-social__item">
                         <a href="./index.html" class="footer-social__link" target="_blank" rel="noopener noreferrer nofolow"
                             aria-label="linkedin">
-                            <svg class="workers-social__icon" width="20" height="20">
+                            <svg class="footer-social__icon" width="20" height="20">
                                 <use href="./images/symbol-defs.svg#linkedin-1"></use>
                             </svg>
                         </a>
@@ -279,7 +277,7 @@
                     <label class="footer-form__field">
                         <input type="email" name="mail" id="mail" placeholder="E-mail" class="footer-form__input pointer" />
                     </label>
-                    <button type="submit" class="btn pointer">Подписаться
+                    <button type="submit" class="footer-form__btn pointer">Подписаться
                         <svg class="footer-form__icon" width="24" height="24">
                             <use href="./images/symbol-defs.svg#icon-send"></use>
                         </svg>

@@ -2,28 +2,26 @@
 @import "./utils/variables";
 
 @import "./components/page-header";
-@import "./components/logo";
 @import "./components/site-nav";
 @import "./components/adress-nav";
 
-@import "./components/hero";
-@import "./components/backdrop";
-@import "./components/modal";
-@import "./components/modal-form";
-@import "./components/checkbox";
+@import "./components/studio/hero";
+@import "./components/studio/backdrop";
+@import "./components/studio/modal";
+@import "./components/studio/modal-form";
+@import "./components/studio/checkbox";
 
-@import "./components/section-features";
-@import "./components/section-services";
-@import "./components/section-workers";
-@import "./components/workers-card";
-@import "./components/workers-social";
-@import "./components/section-customers";
-// @import "";
-// @import "";
-// @import "";
-// @import "";
-// @import "";
-// @import "";
-// @import "";
-// @import "";
+@import "./components/studio/section-features";
 
+@import "./components/studio/section-services";
+
+@import "./components/studio/section-workers";
+@import "./components/studio/workers-card";
+@import "./components/studio/workers-social";
+
+@import "./components/studio/section-customers";
+
+@import "./components/page-footer";
+@import "./components/footer-adress";
+@import "./components/footer-social";
+@import "./components/footer-form";

@@ -31,7 +31,8 @@
         text-transform: uppercase;
     }
     
-    &__btn.primary {
+    &__btn {
+        @extend %btn;
         margin: 0 auto 0;
     }
 }

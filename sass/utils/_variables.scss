@@ -99,7 +99,32 @@ img {
     list-style: none;
 }
 
-.btn {
+.pointer {
+    cursor: pointer;
+}
+
+/* logo */
+
+.logo {
+    color: $accent-color;
+    font-family: $font-logo;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
+    &--page-header {
+        color: $title-text-color;
+    }
+
+    &--page-footer {
+        color: $primary-white-color;
+    }
+}
+
+/* button */
+
+%btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,8 +149,4 @@ img {
     &:focus {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
-}
-
-.pointer {
-    cursor: pointer;
 }

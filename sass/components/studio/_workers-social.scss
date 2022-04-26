@@ -2,8 +2,6 @@
 
 .workers-social {
     display: flex;
-    margin-top: 16px;
-    width: calc((100% - 30px) / 4);
 
     &__item {
         margin-right: 10px;
@@ -22,7 +20,6 @@
     
         color: $background-color-icon;
     
-        border-radius: 50%;
         background-color: $primary-white-color;
         border-radius: 50%;
     
