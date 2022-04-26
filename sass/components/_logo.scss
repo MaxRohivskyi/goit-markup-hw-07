@@ -1,0 +1,18 @@
+/* logo */
+
+.logo {
+    color: $accent-color;
+    font-family: $font-logo;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.page-header__logo {
+    color: $title-text-color;
+}
+
+.page-footer__logo {
+    color: $primary-white-color;
+}

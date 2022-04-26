@@ -1,0 +1,12 @@
+/* page-header */
+
+.page-header {
+    border-bottom: 1px solid $header-border-color;
+}
+
+/* page-header__nav */
+
+.page-header__nav {
+    display: flex;
+    align-items: center;
+}

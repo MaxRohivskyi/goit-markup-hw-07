@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: rgba(117, 117, 117, 1);
   --title-text-color: rgba(33, 33, 33, 1);
   --accent-color: rgba(33, 150, 243, 1);
@@ -18,9 +18,9 @@
 
   --time-animation: 250ms;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-html {
+/* html {
   box-sizing: border-box;
 }
 
@@ -28,18 +28,18 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
-body {
+/* utils */
+
+/* body {
   color: var(--primary-text-color);
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 
   background-color: var(--primary-white-color);
-}
-
-/* утилити */
+} */
 
 .container {
   width: 1200px;
@@ -89,7 +89,7 @@ img {
   text-align: center;
 
   background-color: var(--accent-color);
-  border: 0px solid transparent;
+  border: 0 solid transparent;
   border-radius: 4px;
 
   transition: box-shadow var(--time-animation) var(--timing-function);
