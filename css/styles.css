@@ -580,13 +580,13 @@ img {
 
 /* workers */
 
+.section-workers {
+  background-color: var(--section-background-color);
+}
+
 .workers {
   display: flex;
   flex-wrap: wrap;
-}
-
-.section-workers {
-  background-color: var(--section-background-color);
 }
 
 .workers__item {

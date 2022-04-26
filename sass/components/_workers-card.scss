@@ -1,0 +1,21 @@
+/* workers-card */
+
+.workers-card {
+  padding: 30px 32px;
+  
+  &__title {
+    color: $title-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+  }
+  
+  &__text {
+    margin-top: 10px;
+  
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+  }
+}

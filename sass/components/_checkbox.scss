@@ -1,12 +1,5 @@
 /* checkbox */
 
-.modal-form__checkbox-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    outline: none;
-}
-
 .modal-form__checkbox-field {
     display: flex;
     align-items: center;
@@ -14,17 +7,22 @@
     margin-bottom: 30px;
 }
 
+.modal-form__checkbox-input {
+    appearance: none;
+    outline: none;
+}
+
 .modal-form__checkbox-label {
     margin: 0 4px 0 9px;
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     line-height: 1.71;
 }
 
 .modal-form__contract-link {
-    color: var(--accent-color);
+    color: $accent-color;
 
-    border-bottom: 1px solid var(--accent-color);
+    border-bottom: 1px solid $accent-color;
     text-decoration: none;
 }
 
@@ -34,13 +32,13 @@
     height: 15px;
 
     border-radius: 2px;
-    border: 2px solid var(--title-text-color);
+    border: 2px solid $title-text-color;
 
-    transition: border-color var(--time-animation) var(--timing-function),
-        background-color var(--time-animation) var(--timing-function);
+    transition: border-color $time-animation $timing-function,
+        background-color $time-animation $timing-function;
 }
 
 .modal-form__checkbox-input:checked:focus+.modal-form__checkbox-icon {
     border-color: transparent;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
 }

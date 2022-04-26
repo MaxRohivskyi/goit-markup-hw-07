@@ -7,12 +7,11 @@
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
-}
-
-.page-header__logo {
-    color: $title-text-color;
-}
-
-.page-footer__logo {
-    color: $primary-white-color;
+    &--page-header {
+        color: $title-text-color;
+    }
+    
+    &--page-footer {
+        color: $primary-white-color;
+    }
 }
